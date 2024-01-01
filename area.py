@@ -1,9 +1,10 @@
 # crear un programa por sistama de opcion para saber la area de un triangulo, de un rectangulo y de un cuadrado
 
-print('opciones para escoger la area de una figura')
-print('opcion 1 para saber la area de un triagulo')
-print('opcion 2 para saber la area de un rectangulo')
-print('opcion 3 para saber la area de un cuadrado')
+print(f'''
+opciones para escoger la area de una figura
+opcion 1 para saber la area de un triagulo
+opcion 2 para saber la area de un rectangulo
+opcion 3 para saber la area de un cuadrado''')
 
 area = int(input('¿cual es la opcion que escoges?: '))
 if (area == 1):
